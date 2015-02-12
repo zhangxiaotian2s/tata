@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>TATA</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.lazyload.min.js" ></script>
+		<script type="text/javascript" src="js/cityDataMap.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="banner">
+			<img src="http://7vilkd.com1.z0.glb.clouddn.com/banner_img.png" width="100%">
+		</div>
+		<div class="redbk">
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_01.png">
+					</div>
+					<div class="contentbk">
+						<div class="content">
+							<img src="http://7vilkd.com1.z0.glb.clouddn.com/tata_08.png" class="auto">
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_02.png">
+					</div>
+					<div class="contentbk">
+						<div class="content  content_register">
+							<div class="registerbox">
+								<form>
+									<table width="400">
+										<tr>
+											<td width="20%"><strong>姓 名：</strong>
+											</td>
+											<td width="48%">
+												<div class="text_div border_div">
+													<input type="text" name="username" value="" data-check="required,username">
+												</div>
+											</td>
+											<td width="32%"><span class=""></span>
+											</td>
+										</tr>
+										<tr>
+											<td><strong>电 话：</strong>
+											</td>
+											<td>
+												<div class="text_div border_div">
+													<input type="text" name="username" data-check="required,tel"> </div>
+											</td>
+											<td><span class=""></span>
+											</td>
+										</tr>
+										<tr>
+											<td><strong>城 市：</strong>
+											</td>
+											<td>
+												<div class="border_div select_div">
+													<select id="province">
+														<option value="0">省份</option>
+													</select>
+												</div>
+												<div class="border_div select_div">
+													<select id="city">
+														<option value="0">城市</option>
+													</select>
+												</div>
+											</td>
+											<td><span class=" area_error" id="area_error"></span>
+											</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td>
+												<input type="button" value="" class="sub_btn" id="sub_btn">
+											</td>
+										</tr>
+
+									</table>
+
+								</form>
+
+							</div>
+							<div class="number_yue">12342</div>
+							<div class="djs">
+								<span>剩余时间</span>
+								<span id="day">00</span>
+								<span>天</span>
+								<span id="hour">00</span>
+								<span>时</span>
+								<span id="minute">00</span>
+								<span>分</span>
+								<span id="seconds">00</span>
+								<span>秒</span>
+								<div class="blank10"></div>
+								<h4>最新预约成功客户</h4>
+							</div>
+
+
+							<div class="scroll_box" id="scroll_box">
+								<ul>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸1</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸2</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸3</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸4</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸5</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸6</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸7</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸8</li>
+									<li>成都的刘大山(先生/女士)已经申请上门测量尺寸9</li>
+
+								</ul>
+
+
+							</div>
+
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_03.png">
+					</div>
+					<div class="contentbk">
+						<div class="content ">
+							<div class="blank30"></div>
+							<div class="blank10"></div>
+							<a href="#">
+								<img src="http://7vilkd.com1.z0.glb.clouddn.com/sjs01.png" class="auto">
+							</a>
+							<div class="blank30"></div>
+							<div class="blank10"></div>
+							<a href="#">
+								<img src="http://7vilkd.com1.z0.glb.clouddn.com/sjs02.png" class="auto">
+							</a>
+							<div class="blank30"></div>
+							<div class="blank10"></div>
+							<a href="#">
+								<img src="http://7vilkd.com1.z0.glb.clouddn.com/sjs03.png" class="auto">
+							</a>
+							<div class="blank30"></div>
+							<div class="blank10"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_04.png">
+					</div>
+					<div class="contentbk">
+						<div class="content baokuanmen">
+							<div class="blank20"></div>
+							<ul>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tata_26.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tata_28.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tata_30.png">
+									</a>
+								</li>
+
+							</ul>
+							<div class="blank20"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_05.png">
+					</div>
+					<div class="contentbk">
+						<div class="content content_weixin">
+							<div class="blank20"></div>
+							<h2>活动介绍</h2>
+							<div class="blank10"></div>
+							<p class="font_blod">1.初二推出活动2款门，客户任意选择一款砍价，直到初八
+								<br> AC-019原价3980 最高砍价到980元 砍一刀50元
+								<br> 60人可砍到最低价（仅限5000樘）
+								<br> JO-018原价4780 最高砍价到1180元 砍一刀50元
+								<br> 72人可砍到最低价（仅限5000樘）
+
+							</p>
+							<div class="blank20"></div>
+							<h2>活动规则</h2>
+							<div class="blank10"></div>
+							<p class="font_blod">时间： 正月初二——正月初八
+								<br /> 1、砍一刀50元，直到砍到最低价
+								<br /> 2、每个朋友仅可砍价一次。（本人不可为自己砍价）
+								<br /> 3、本次活动，每个用户仅限兑换一樘，对应一个安装地址。
+								<br /> 4、仅限321开年大促活动使用，3月20前到店确认个人信息方可享受此折扣。
+								<br /> 5、所有工作人员有权对提交兑奖信息的参与者进行审核，如有违规，将有权取消优惠资格。
+								<br /> 6、TATA木门保留对本活动所有相关事宜的最终解释权。
+
+							</p>
+							<div class="blank20"></div>
+							<h2>如何操作</h2>
+							<div class="blank10"></div>
+							<p class="font_blod">第一步：在官方微信输入‘砍价’点击弹出图文，AC-019和 JO-018 任选一款开始砍价
+								<br /> 第二步：转发朋友圈传播
+								<br /> 第三步：朋友看到点开后帮忙砍价，
+								<br /> 第四步：砍价后，点击‘我也要参加‘报名参加砍价
+								<br /> 第五步：继续转发朋友圈让他的朋友帮忙砍价并传播······
+
+							</p>
+							<div class="blank20"></div>
+							<img src="images/tata_44.png" class=" auto">
+							<div class="blank20"></div>
+							<h2>砍价爆款门</h2>
+							<div class="blank10"></div>
+							<ul class="kanjiabaokuan">
+								<li>
+									<a href="#">
+										<img src="images/tata_36-16.png"> </a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/tata_36.png"> </a>
+								</li>
+							</ul>
+							<div class="blank20"></div>
+
+
+							<div class="weixinma">
+								<img src="images/erweima.png" width="210" height="239" alt="微信">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_06.png">
+					</div>
+					<div class="contentbk">
+						<div class="content content_tequan">
+							<div class="blank20"></div>
+							<h2>购买【特权订金】可享受特权：</h2>
+							<div class="blank10"></div>
+							<p>当期活动价基础上享受折上折200元抵用400元
+								<br /> 价值1000元门店服务
+								<br /> ①上门测量 ②专业设计 ③精细报价
+							</p>
+							<div class="blank20"></div>
+							<h2>使用流程：</h2>
+							<img src="images/liucheng.png" class="liuchengimg">
+							<div class="blank10"></div>
+							<ul class="tejiadingjin">
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tejia01.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tejia02.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tejia03.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tejia04.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tejia05.png">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="http://7vilkd.com1.z0.glb.clouddn.com/tejia06.png">
+									</a>
+								</li>
+							</ul>
+							<div class="blank20"></div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="module_box">
+				<div class="navbk"></div>
+				<div class="modulebk">
+					<div class="title_nav">
+						<img src="images/nav_07.png">
+					</div>
+					<div class="contentbk">
+						<div class="content  content_ppsl">
+							<div class="blank30"></div>
+							<div class="blank30"></div>
+							<img src="images/tata_63.png" class="auto">
+							<img src="images/tata_65.png" class="auto">
+							<img src="images/tata_67.png" class="auto">
+							<img src="images/tata_68.png" class="auto">
+							<img src="images/tata_69.png" class="auto">
+							<img src="images/tata_70.png" class="auto">
+							<div class="blank30"></div>
+							<div class="blank30"></div>
+							<img src="images/nav2_01.png" class="auto">
+							<img src="http://7vilkd.com1.z0.glb.clouddn.com/tata_77.png" class="auto">
+							<div class="blank10"></div>
+							<img src="http://7vilkd.com1.z0.glb.clouddn.com/tata_80.png" class="auto">
+							<div class="blank30"></div>
+							<img src="images/nav2_01-28.png" class="auto">
+							<div class="blank20"></div>
+							<ul class="rong_list">
+								<li>
+									<img src="images/rong1.png">
+								</li>
+								<li>
+									<img src="images/rong2.png">
+								</li>
+								<li>
+									<img src="images/rong3.png">
+								</li>
+								<li>
+									<img src="images/rong4.png">
+								</li>
+								<li>
+									<img src="images/rong5.png">
+								</li>
+								<li>
+									<img src="images/rong6.png">
+								</li>
+							</ul>
+							<div class="blank10"></div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+			<div class="bottom_bk">
+			</div>
+			<div class="foot">
+				<div>
+					<ul>
+						<li>
+							<img src="images/bottom.png">
+						</li>
+						<li>
+							<img src="images/bottom-37.png">
+						</li>
+						<li>
+							<img src="images/bottom-38.png">
+						</li>
+						<li>
+							<img src="images/bottom-39.png">
+						</li>
+						<li>
+							<img src="images/bottom-40.png">
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+		<script type="text/javascript" src="js/jquery.myvalidate.js"></script>
+		<script type="text/javascript" src="js/select.area.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$("#sub_btn").click(function() {
+					$("form input[type='text']").trigger('blur');
+					if ($("#province").val() == 0) {
+						$("#area_error").addClass("error_yellow").html("请选择城市")
+					}
+					if($("form").find("span.error_yellow").length>0){
+						return false
+					}
+					else{
+						$("form").submit()
+					}
+					
+				})
+				//lazy.load
+				$("img").lazyload({effect: "fadeIn"});
+				//滚动
+				var cont = $("#scroll_box ul");
+				setInterval(moveup, 1000);
+				function moveup() {
+					var cont_li = cont.children("li");
+					var cont_li_first = cont_li.first();
+					var cont_li_first_cp = cont_li_first
+					cont_li_first.slideUp(500, function() {
+						cont_li_first_cp.appendTo(cont).show()
+					})
+				}
+				//倒计时
+				 var settime="1425225600"
+				var nowtime = (Date.parse(new Date())/1000);
+				setInterval(function(){
+					
+				  djs(settime,nowtime)
+				  nowtime+=1;
+				},1000)
+				function djs(settime,nowtime){
+			    var count_time=settime-nowtime,
+			        day=parseInt(count_time/(60*60*24)),
+			        house=parseInt(count_time/(60*60) -(day*24)),
+				    minute = parseInt(count_time/(60)-(day*24*60+house*60)),
+				    second =parseInt(count_time-(day*24*60*60+house*60*60+minute*60));
+				    $("#day").html(day);
+				    $("#hour").html(house)
+				    $("#minute").html(minute)
+				    $("#seconds").html(second)
+				}
+				
+			})
+		</script>
+	</body>
+
+</html>

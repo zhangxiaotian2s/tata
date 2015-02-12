@@ -1,0 +1,75 @@
+*{ margin: 0; padding: 0; font-family: "微软雅黑",verdana;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+img{border: none;}
+input ,select{outline: none}
+.blank10{ height: 10px; overflow: hidden; clear: both;}
+.blank20{ height: 20px; overflow: hidden; clear: both;}
+.blank30{ height: 30px; overflow: hidden; clear: both;}
+.redbk_content{ background: #90030c;}
+.auto{ display: block; margin: auto;}
+.redbk{ background:#64000a; width: 100%; overflow: hidden;}
+.module_box{  width: 100%; overflow: hidden;}
+.font_blod{ font-weight: bold;}
+.modulebk{ background: url(../images/modulebk.png) no-repeat center top; max-width: 1478px; margin:-114px auto 0px; overflow: hidden; }
+.contentbk{ background: url(../images/bk1200.png) repeat-y center top; width: 1200px; margin:20px  auto 0px; overflow: hidden;}
+.navbk{ height: 114px; width: 100%;  background: url(../images/navbk.png) repeat-x top;}
+.content{ width: 910px; overflow: hidden; margin: 0 auto;}
+.banner img{  display: block;}
+.banner { width: 100%;}
+.title_nav{ width: 336px; height: 55px; margin: 0 auto; padding:30px 0px ;}
+
+.content_register{ width: 910px; height: 337px; background:url(../images/register_bk.png)  center right no-repeat; position: relative;}
+.baokuanmen ul { margin-left: 10px;}
+.baokuanmen ul li{ float: left; width: 294px;  height: 375px; overflow: hidden; margin:0 3px;  display: inline; }
+
+
+.content_weixin{ background: #fff; position: relative; color: #6d0f18;}
+.content_weixin h2{ font-size: 28px; margin-left: 30px; line-height: 40px;}
+.content_weixin p { font-size: 16px; line-height: 26px; margin-left: 30px;}
+.weixinma{ position: absolute; right: 100px; top:  20px;}
+
+.kanjiabaokuan li { float: left; width: 425px; height: 535px;  margin: 0px 15px; display: inline;}
+
+.content_tequan,.content_ppsl{background: #FFFFFF;}
+.content_tequan h2{ font-size: 24px; color: #395ca6; line-height: 40px; margin-left: 30px;}
+.content_tequan p{ color: #395CA6; font-size: 24px; margin-left: 30px;}
+
+.tejiadingjin { margin-left: 10px;}
+.liuchengimg{ margin-left: 40px;}
+.tejiadingjin li{ float: left; margin: 5px 12px; display: inline;}
+
+.rong_list{ margin-left: 10px;}
+.rong_list li{  float:left; margin: 5px 10px; display: inline;}
+
+.bottom_bk{ height: 64px; width: 100%; background: url(../images/bottom_bk.png) no-repeat  center}
+
+.foot{ width: 100%; height: 180px;  background: #ffe9ad;}
+.foot div {width: 910px; margin: auto;}
+.foot div ul li { float: left; margin: 20px 30px;}
+
+
+
+/*register*/
+.registerbox{ margin-top: 90px; margin-left: 30px;}
+.error_yellow{ color: #FFEC00; font-size: 12px; }
+.registerbox td{ height: 50px;}
+.registerbox strong{ font-size: 22px; line-height: 38px;  color: #ffec00;}
+.sub_btn{ width: 174px; height: 38px; border:0; background: url(../images/tata_16.png) center; cursor: pointer; margin-left: 10px;}
+.text_div{ width:174px ; height: 38px; background: #FFFFFF; margin-left: 10px;}
+.text_div input{ border: 0; height: 38px; line-height: 38px; padding-left: 10px;}
+.border_div{ border-top:#777777 solid 1px; border-right:#777777 solid 1px ; border-left: #a4a4a4 solid 1px; border-bottom: #a4a4a4 solid 1px;}
+
+.select_div{ width:80px ; background: #FFFFFF;  float: left; margin-left: 10px; display: inline;}
+.select_div select{ border: 0; width: 100%;}
+
+.scroll_box{ width: 336px; height: 146px; padding: 10px 0px; overflow: hidden; background: #FFFFFF; position: absolute; right: 120px; bottom: 10px;}
+
+.scroll_box ul li{ font-size: 12px; line-height: 30px; height: 30px; margin-left: 30px;}
+
+.number_yue{ width: 190px; height: 42px; text-align: right; font-size: 42px; color: #FFEC00; font-weight: bold; position: absolute;  top: 15px; right: 300px;}
+
+.djs{ width: 440px; position:absolute; top: 80px; right: 10px;}
+.djs span{ display: block; float: left; font-size: 26px; height: 30px; line-height: 30px;}
+#day,#hour,#minute,#seconds{ height: 30px; padding: 0px 10px; background: #FFFFFF; margin: 0px 2px; display: inline;}
+.djs h4{ font-size: 26px; color: #FFFFFF; font-weight: normal; padding-left: 50px;}
