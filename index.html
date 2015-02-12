@@ -63,7 +63,7 @@
 											<td><span class=""></span>
 											</td>
 										</tr>
-										<tr>
+										<!--<tr>
 											<td><strong>城 市：</strong>
 											</td>
 											<td>
@@ -80,7 +80,7 @@
 											</td>
 											<td><span class=" area_error" id="area_error"></span>
 											</td>
-										</tr>
+										</tr>-->
 										<tr>
 											<td></td>
 											<td>
@@ -398,6 +398,12 @@
 					</ul>
 				</div>
 			</div>
+			<div class="foot_to_top">
+				<a href="#top" id="bk-top"  class="#">
+					<img src="images/bk_top.png" class="auto">
+				</a>
+				
+			</div>
 
 
 		</div>
@@ -410,9 +416,9 @@
 		
 			$("#sub_btn").click(function() {
 				$("form input[type='text']").trigger('blur');
-				if ($("#province").val() == 0) {
-					$("#area_error").addClass("error_yellow").html("请选择城市")
-				}
+//				if ($("#province").val() == 0) {
+//					$("#area_error").addClass("error_yellow").html("请选择城市")
+//				}
 				if ($("form").find("span.error_yellow").length > 0) {
 					return false
 				} else {

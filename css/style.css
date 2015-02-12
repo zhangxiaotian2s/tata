@@ -76,10 +76,10 @@ input ,select{outline: none}
 
 
 
-.back_top{ position: fixed; right: 0px; bottom: 8px; display: none;}
+/*.back_top{ position: fixed; right: 0px; bottom: 8px; display: none;}
 .back_top ul li{  width: 14px; text-align: center; padding:10px 10px 5px; margin:1px 0px; line-height: 14px; font-size: 14px; background: #FFEC00; cursor: pointer;}
-.back_top ul li:hover{ background: #ffe9ad; }
-
+.back_top ul li:hover{ background: #ffe9ad; }*/
+.foot_to_top{height: 30px; width: 100%; background: #858383;}
 
 
 /**/
