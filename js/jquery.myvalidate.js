@@ -28,7 +28,7 @@ $("form").find("input[type='text']").bind({
 				}
 			}
 			if (data_inarray("tel") != -1) {
-				var isMobile = /^(?:13\d|15\d)\d{5}(\d{3}|\*{3})$/;
+				var isMobile = /^1[3|4|5|8]\d{9}$/;
 				var isPhone = /^((0\d{2,3})-)?(\d{7,8})(-(\d{3,}))?$/;
 				if(!isMobile.test($value) && !isPhone.test($value)){
 					error_add("请输入正确的电话号码")
