@@ -16,7 +16,7 @@ input ,select{outline: none}
 .navbk{ height: 114px; width: 100%;  background: url(../images/navbk.png) repeat-x top;}
 .content{ width: 910px; overflow: hidden; margin: 0 auto;}
 .banner img{  display: block;}
-.banner { width: 100%;}
+.banner { width: 100%; position: relative;}
 .title_nav{ width: 336px; height: 55px; margin: 0 auto; padding:30px 0px ;}
 
 .content_register{ width: 910px; height: 337px; background:url(../images/register_bk.png)  center right no-repeat; position: relative;}
@@ -39,6 +39,10 @@ input ,select{outline: none}
 .liuchengimg{ margin-left: 40px;}
 .tejiadingjin li{ float: left; margin: 5px 12px; display: inline;}
 
+.content_wqjc ul{ margin-left: 5px;}
+.content_wqjc ul li{ float: left; margin-left: 10px;}
+
+
 .rong_list{ margin-left: 10px;}
 .rong_list li{  float:left; margin: 5px 10px; display: inline;}
 
@@ -52,6 +56,7 @@ input ,select{outline: none}
 
 /*register*/
 .registerbox{ margin-top: 90px; margin-left: 30px;}
+.registerbox p{ font-size: 14px; padding-left: 10px; font-weight:bold}
 .error_yellow{ color: #FFEC00; font-size: 12px; }
 .registerbox td{ height: 50px;}
 .registerbox strong{ font-size: 22px; line-height: 38px;  color: #ffec00;}
@@ -80,6 +85,8 @@ input ,select{outline: none}
 .back_top ul li{  width: 14px; text-align: center; padding:10px 10px 5px; margin:1px 0px; line-height: 14px; font-size: 14px; background: #FFEC00; cursor: pointer;}
 .back_top ul li:hover{ background: #ffe9ad; }*/
 .foot_to_top{height: 30px; width: 100%; background: #858383;}
+.foot_fix{ position: fixed; z-index: 10000; bottom: 0px; left: 0px;}
+.foot_liucheng{ width: 100%; background: url(../images/foot_liucheng.png) no-repeat center top; height: 68px;}
 
 
 /**/
@@ -98,5 +105,20 @@ input ,select{outline: none}
     text-indent: 4px;
     width: 130px;
 }
+
+.head_nav{ background:url(../images/bk40.png); width: 100%; height: 50px; padding-top: 5px; position: absolute; top: 0px; left: 0px;}
+.head_nav .head_nav_box { width: 800px; overflow: hidden; margin:auto;}
+.head_nav_box  ul  li{ float: left; margin-left: 40px; display: inline; }
+
+.foot_fix{ background: #ffd433; height: 100px;}
+.foot_fixbox{ overflow: hidden; width: 1200px;  height:100px;background: url(../images/bootom_fix_bk.png);}
+.foot_fixbox table{ margin-top: 30px; margin-left: 380px;}
+.foot_fixbox strong{ font-size: 22px; color: #FFFFFF; text-align: center;}
+.foot_fixbox div{ background: #FFFFFF; height: 30px; line-height: 30px; width: 140px;}
+.foot_fixbox input[type='text']{ border: none;height: 26px; padding-left: 5%; width: 95%;}
+
+#sub_btn2{ background: url(../images/sub_btn2.png); width: 145px; height: 34px;  border: 0; cursor: pointer;}
+
+.error_text{ font-size: 12px; padding-left: 10px; line-height: 34px; color: #90030C;}
 
 
