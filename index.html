@@ -415,11 +415,11 @@
 			 //表单
 		
 			$("#sub_btn").click(function() {
-				$("form input[type='text']").trigger('blur');
+				$("#register1 input[type='text']").trigger('blur');
 //				if ($("#province").val() == 0) {
 //					$("#area_error").addClass("error_yellow").html("请选择城市")
 //				}
-				if ($("form").find("span.error_yellow").length > 0) {
+				if ($("#register1").find("span.error_yellow").length > 0) {
 					return false
 				} else {
 					$.ajax({
