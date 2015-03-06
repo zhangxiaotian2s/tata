@@ -113,7 +113,7 @@ input ,select{outline: none}
 .foot_fix{ background: #ffd433; height: 100px;}
 .foot_fixbox{ overflow: hidden; width: 1200px;  height:100px;background: url(../images/bootom_fix_bk.png);}
 .foot_fixbox table{ margin-top: 30px; margin-left: 380px;}
-.foot_fixbox strong{ font-size: 22px; color: #FFFFFF; text-align: center;}
+.foot_fixbox strong{ font-size: 22px; color: #e74712; text-align: center;}
 .foot_fixbox div{ background: #FFFFFF; height: 30px; line-height: 30px; width: 140px;}
 .foot_fixbox input[type='text']{ border: none;height: 26px; padding-left: 5%; width: 95%;}
 
