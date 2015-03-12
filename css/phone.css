@@ -1,0 +1,85 @@
+*{ margin: 0; padding: 0; font-family: "微软雅黑",verdana;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+img{border: none;}
+input ,select{outline: none}
+.blank10{ height: 10px; overflow: hidden; clear: both;}
+.blank20{ height: 20px; overflow: hidden; clear: both;}
+.blank30{ height: 30px; overflow: hidden; clear: both;}
+.marginauto{ margin: 0 auto;}
+.block{ display: block;}
+.phone_container{width: 100%; margin:0; padding: 0;}
+.nav{ width: 100%; background: url(../images/navbk.png) repeat-x;  }
+.overhidden{  overflow: hidden;}
+.row{margin: 0;}
+.color_yellow{ color: #FFFF00;}
+.error_red{ color: #B92C28;}
+.bkred{ background: #64000a;}
+
+.registerbox{ background: url(../phoneimages/register_bk2.png); background-size: cover;  overflow: hidden;}
+.registerbox td{ height: 60px;}
+.registerbox strong{ font-size: 16px; line-height: 38px;  color: #ffec00;}
+.sub_btn{ width: 174px; height: 38px; border:0; background: url(../images/tata_16.png) center; cursor: pointer; margin-left: 10px;}
+.text_div input{ border: 0; width: 100%; height: 38px; line-height: 38px; padding-left: 10px;}
+.border_div{ }
+
+
+.scoll_name {}
+.yyrs{ font-size: 20px; height: 50px; line-height: 50px; border-bottom: #f3b305  solid 3px;color: #ffffff;}
+.yyrs i{ color: #ffed00; padding: 0px 5px;}
+
+.djs{ font-size: 16px; color: #FFFFFF;}
+
+.scroll_box{ width: 100%; height: 146px; padding: 10px 0px; overflow: hidden; background: #FFFFFF; }
+
+.scroll_box ul li{ font-size: 12px; line-height: 30px; height: 30px; margin-left: 1%;}
+
+.content_weixin{ color: #fff;}
+.content_tequan{ color: #395ca6;}
+.content_tequan h2{font-size: 22px;}
+
+.content_tequan p{font-size: 16px;}
+
+
+.content_ppsl{ background: #ffffff;}
+.viewport {
+    width: 480px;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
+}
+
+.flipsnap {
+    width: 960px; /* 320px(item width) * 3(item count) */
+}
+
+.flipsnap:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.item {
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    
+    background: #EFEFEF;
+    color: #666;
+}
+.item img{ width: 100%;}
+.pointer {
+	text-align: center;
+}
+.pointer span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	border: 1px solid #fff;
+}
+.pointer span.current {
+	background: #FC0;
+}
+
