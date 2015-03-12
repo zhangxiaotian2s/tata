@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="js/flipsnap.js"></script>
 		<script type="text/javascript" src="js/demo.js"></script>
 		<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/jquery.lazyload.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
 	</head>
 
 	<body>
@@ -30,6 +30,7 @@
 				<img src="phoneimages/tata_08.png" class="img-responsive marginauto">
 				<div class="blank10"></div>
 			</div>
+			<a href="#" id="baoming"></a>
 			<div class="nav row ">
 				<div class="blank20"></div>
 				<div class="col-xs-8 col-xs-offset-2">
@@ -39,6 +40,7 @@
 			</div>
 			<div class="registerbox bkred row">
 				<div class="blank30"></div>
+				
 				<div class="col-xs-10  col-xs-offset-1">
 					<form id="register1">
 						<table width="100%">
@@ -416,38 +418,46 @@
 					</div>
 					<div class="blank30"></div>
 				</div>
-				
 
 			</div>
 			<div class="row foot">
-					<div class="col-xs-12 col-xs-offset-0">
-						<div class="viewport viewport7">
-							<div class="flipsnap flipsnap7">
-								<div class="item item7">
+				<div class="col-xs-12 col-xs-offset-0">
+					<div class="viewport viewport7">
+						<div class="flipsnap flipsnap7">
+							<div class="item item7">
 								<img src="phoneimages/bottom.png" class="img-responsive  marginauto block">
-								</div>
-								<div class="item item7">
-									<img src="phoneimages/bottom-37.png" class="img-responsive  marginauto block">
-								</div>
-								<div class="item item7">
-									<img src="phoneimages/bottom-38.png" class="img-responsive  marginauto block">
-								</div>
-								<div class="item item7">
-									<img src="phoneimages/bottom-39.png" class="img-responsive  marginauto block">
-								</div>
-								<div class="item item7">
-									<img src="phoneimages/bottom-40.png" class="img-responsive  marginauto block">
-								</div>
+							</div>
+							<div class="item item7">
+								<img src="phoneimages/bottom-37.png" class="img-responsive  marginauto block">
+							</div>
+							<div class="item item7">
+								<img src="phoneimages/bottom-38.png" class="img-responsive  marginauto block">
+							</div>
+							<div class="item item7">
+								<img src="phoneimages/bottom-39.png" class="img-responsive  marginauto block">
+							</div>
+							<div class="item item7">
+								<img src="phoneimages/bottom-40.png" class="img-responsive  marginauto block">
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
 		</div>
-		<script type="text/javascript" src="js/jquery.phone.myvalidate.js" ></script>
+		<div class="fixed_bm row">
+			<div class="blank10"></div>
+			<div class=" col-xs-4 col-xs-offset-4">
+				
+				<a href="#baoming">
+					<img src="images/sub_btn2.png" class="img-responsive  marginauto block">
+				</a>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.phone.myvalidate.js"></script>
 		<script>
-		 //表单
-		 
+			 //表单
 			$("#sub_btn").click(function() {
 				$("#register1 input[type='text']").trigger('blur');
 				//				if ($("#province").val() == 0) {
@@ -462,11 +472,9 @@
 						success: function(data) {
 							//							if (data.msg == success) {
 							alert("报名成功")
-
-							//							} else {
-							//								alert("报名失败")
-							//							}
-
+								//							} else {
+								//								alert("报名失败")
+								//							}
 						},
 						error: function() {
 							alert("提交出现错误")
@@ -476,11 +484,10 @@
 					});
 				}
 			})
-		
 		</script>
+
 		<script>
 			$(document).ready(function() {
-				
 				//lazy.load
 				$("img").lazyload({
 					effect: "fadeIn"
@@ -496,12 +503,10 @@
 							cont_li_first_cp.appendTo(cont).show()
 						})
 					}
-				
-				//倒计时
+					//倒计时
 				var settime = "1425225600"
 				var nowtime = (Date.parse(new Date()) / 1000);
 				setInterval(function() {
-
 					djs(settime, nowtime)
 					nowtime += 1;
 				}, 1000)
@@ -517,11 +522,6 @@
 					$("#minute").html(minute)
 					$("#seconds").html(second)
 				}
-				
-				
-				
-				
-				
 				var w_width = $(window).width() - 10
 				var col_10_width = $(".col_box").width()
 				$(".item2,.viewport2").css("width", col_10_width)
@@ -551,7 +551,6 @@
 					distance: 200, // 80px * 2
 					maxPoint: 3 // move able 3 times
 				});
-				
 				$(".viewport7").css("width", col_10_width)
 				$(".item7").css("width", 130)
 				$(".flipsnap7").css("width", 130 * 6)

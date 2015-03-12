@@ -42,6 +42,10 @@ input ,select{outline: none}
 
 
 .content_ppsl{ background: #ffffff;}
+
+.fixed_bm{ height: 40px; background: #E38D13;  width: 100%; opacity: .9; position: fixed; bottom: 0px; left: 0px;}
+
+
 .viewport {
     width: 480px;
     overflow: hidden;
