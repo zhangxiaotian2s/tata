@@ -33,7 +33,9 @@
 				</a>
 			</div>
 		</div>
-	
+	    <div id="top_height" class="bkred">
+	    	
+	    </div>
 		<div class="container-fluid  phone_container">
 			<a href="#" onclick="doyoo.util.openChat('g=10044273');return false;">
 				<img src="phoneimages/banner_img.png" class="img-responsive" style="width: 100%;">
@@ -512,6 +514,8 @@
 
 		<script>
 			$(document).ready(function() {
+			$("#top_height").css("height",$(".top_fix").height())
+			$("#bottom_height").css("height",$(".fixed_bm").height())
 				//lazy.load
 				$("img").lazyload({
 					effect: "fadeIn"
@@ -575,8 +579,7 @@
 //					distance: 200, // 80px * 2
 //					maxPoint: 3 // move able 3 times
 //				});
-			$(".container-fluid").css("margin-top",$(".top_fix").height())
-			$("#bottom_height").css("height",$(".fixed_bm").height())
+			
 			
 			
 			})

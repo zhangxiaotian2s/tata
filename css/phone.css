@@ -97,7 +97,7 @@ input ,select{outline: none}
 	-khtml-opacity: 0.0;
 	opacity: 0.0;}
 
-.top_fix{ width: 100%; position: fixed; top: 0px; left: 0px; padding: 2px 0px; background: #000000; opacity: .8; z-index: 100000;}
+.top_fix{ width: 100%; position: fixed; top: 0px; left: 0px; padding: 2px 0px; background:url(../phoneimages/bk40.png);  z-index: 100000;}
 .top_fix div{ padding: 0px;}
 .top_fix img { width: 100%;}
 .fixed_bm  { margin: 0px; padding: 0px;}
