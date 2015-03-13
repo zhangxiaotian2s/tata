@@ -43,7 +43,7 @@ input ,select{outline: none}
 
 .content_ppsl{ background: #ffffff;}
 
-.fixed_bm{ height: 40px; background: #E38D13;  width: 100%; opacity: .9; position: fixed; bottom: 0px; left: 0px;}
+.fixed_bm{   width: 100%;  position: fixed; bottom: 0px; left: 0px;}
 
 
 .viewport {
@@ -83,7 +83,21 @@ input ,select{outline: none}
 	border-radius: 6px;
 	border: 1px solid #fff;
 }
+.pointer6 span{
+		border: 1px solid #CC0000;
+}
 .pointer span.current {
 	background: #FC0;
 }
+.footbz_bk{ background: #ffeaaa;}
+
+
+.option0{filter:alpha(opacity=0);
+	-moz-opacity:0.0;
+	-khtml-opacity: 0.0;
+	opacity: 0.0;}
+
+.top_fix{ width: 100%; position: fixed; top: 0px; left: 0px; padding: 2px 0px; background: #000000; opacity: .8; z-index: 100000;}
+.top_fix div{ padding: 0px;}
+.top_fix img { width: 100%;}
 
