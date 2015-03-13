@@ -33,6 +33,7 @@
 				</a>
 			</div>
 		</div>
+	
 		<div class="container-fluid  phone_container">
 			<a href="#" onclick="doyoo.util.openChat('g=10044273');return false;">
 				<img src="phoneimages/banner_img.png" class="img-responsive" style="width: 100%;">
@@ -454,7 +455,7 @@
 			<div class="row ">
 				<div class="col-xs-12 col-xs-offset-0">
 					<a href="#" onclick="doyoo.util.openChat('g=10044273');return false;">
-                    <img src="phoneimages/phone_foot.png" class="img-responsive marginauto">
+                    <img src="phoneimages/phone_foot.png" class="img-responsive marginauto p_100">
                    </a>
 				</div>
 			   
@@ -462,27 +463,20 @@
 			<div class="row ">
 				<div class="col-xs-12 col-xs-offset-0">
 					<a href="#top">
-                    <img src="phoneimages/black_top.png" class="img-responsive marginauto">
+                    <img src="phoneimages/black_top.png" class="img-responsive marginauto p_100">
                     </a>
 				</div>
 			   
 			</div>
-			<div class="row">
-			<div class=" col-xs-12 col-xs-offset-0">
-					<img src="images/foot_baoming.png" class="img-responsive  marginauto block option0" >
-			</div>
-		</div>
-         
-
 		</div>
 		
-
-		<div class="fixed_bm row">
-			<div class=" col-xs-12 col-xs-offset-0">
+        <div id="bottom_height" class="bkred"></div>
+		<div class="fixed_bm">
+		
 				<a href="#baoming">
 					<img src="images/foot_baoming.png" class="img-responsive  marginauto block">
 				</a>
-			</div>
+			
 		</div>
 
 		<script type="text/javascript" src="js/jquery.phone.myvalidate.js"></script>
@@ -581,7 +575,10 @@
 //					distance: 200, // 80px * 2
 //					maxPoint: 3 // move able 3 times
 //				});
-				
+			$(".container-fluid").css("margin-top",$(".top_fix").height())
+			$("#bottom_height").css("height",$(".fixed_bm").height())
+			
+			
 			})
 		</script>
 
